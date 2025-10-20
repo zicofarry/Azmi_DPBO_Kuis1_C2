@@ -1,5 +1,3 @@
-# 🧠 Kuis 1 DPBO - Muhammad ‘Azmi Salam
-
 ## 🧾 Janji
 
 Saya **Muhammad ‘Azmi Salam** dengan **NIM 2406010** mengerjakan soal **Kuis 1** dalam mata kuliah **Desain Pemrograman Berorientasi Objek (DPBO)** untuk keberkahan-Nya maka saya **tidak melakukan kecurangan** seperti yang telah dispesifikasikan.  Aamiin.
