@@ -1,0 +1,91 @@
+Soal Kuis 1 DPBO 2025 Kurikulum Baru C2
+
+Gunakan bahasa pemrograman Python untuk menyelesaikan soal ini. Kompilasi dilakukan pada semua kelas. Jadi di main harus melakukan link/import ke semua kelas. Topik kasus dalam soal ini adalah terkait Paguyuban Cilok.
+
+
+PedagangCilok
+- NoKTP
+- Nama
+- Alamat
+- TahunAwalDagang
+- Jenis (reseller/produksi jual/eksportir jual)
+- ListCilok (jenis-jenis cilok yang dijual)
+
+
+PenggemarCilok
+- NoKTP
+- Nama
+- Alamat
+- ListCilok Favorit
+- ListPedagangCilok Langganan
+
+
+Cilok    
+- KodeCilok
+- Nama
+- IsianCilok
+- Harga
+- berat (dalam gram)
+
+
+IsianCilok
+- KodeBahanIsian
+- NamaIsian
+- Status (vegetarian/non-vegetarian)
+
+TempatJualCilok
+- KodeTempat
+- Nama
+- ListStringAlamat (bisa alamat offline atau marketplace online)
+- jaringan (online/offline)
+
+
+EksportirCilok
+- NoKTP
+- Nama
+- Alamat
+- StatusPedagang (true false apakah juga pedagang atau tidak)
+- ListNegaraEksportirCilok
+- ListCilok (jenis-jenis cilok yang diekspor)
+
+
+NegaraEksporCilok
+- KodeNegara
+- Nama
+- KategoriStandarEkspor
+
+
+KategoriStandarEkspor
+- KodeStandar
+- NamaStandar (seperti low, low medium, medium, medium high, high)
+- LevelHigienis (1-10)
+- LevelKualitasBahan (1-10)
+- LevelPackaging (1-10)
+
+
+
+Buatlah desain relasi antar kelas di atas menggunakan konsep memakai dan dipakai (wajib -- asosiasi/agregasi/composite) dan pewarisan (wajib) atau saling lepas (optional), sertakan alasannya. Diijinkan melakukan penggabungan atau pemisahan kelas dengan alasan yang mendukung. Implementasikan kelas-kelas di atas. Buatlah main yang dapat menampilkan:
+
+
+Semua data dari desain kelas yang dibuat sesuai dengan relasi desain yang dibuat. 
+
+
+semua data ditampilkan minimal 2 data (memeriksa apakah mahasiswa dapat mengimplementasikan array of object).
+
+
+Semua data adalah hardcode (berupa simulasi saja). Semua kelas memiliki metode get set.
+
+
+Semua peraturan pada mata kuliah pemrograman tetap berlaku kecuali yang ditimpa peraturan di soal ini (termasuk ada penulisan janji setia pada kejujuran). 
+
+
+Desain dan implementasi kode program yang sudah di-zip/rar dengan nama file zip/rar sama dengan subjek email dan dikirim ke email rosa.ariani@upi.edu dengan subjek Nama DPBO Kuis1 Kelas contoh Rosa DPBO Kuis1 C2 dengan batas waktu pukul 13.40 waktu upi.edu. Setiap keterlambatan 1 menit akan mendapatkan diskon nilai 2 poin. 
+
+
+Isi dari file zip/rar adalah
+- file desain dalam tipe pdf yang di dalamnya berisi
+   -- janji, gambar desain, 
+   -- alasan kenapa dibuat desain seperti gambar,
+   -- screenshot jalannya program di cmd dengan compiler dari python.org di komputer mahasiswa, 
+- direktori kode program tanpa file eksekusi atau py_cache.
+
