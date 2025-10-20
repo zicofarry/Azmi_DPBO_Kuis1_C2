@@ -2,11 +2,11 @@
 
 Saya **Muhammad ‘Azmi Salam** dengan **NIM 2406010** mengerjakan soal **Kuis 1** dalam mata kuliah **Desain Pemrograman Berorientasi Objek (DPBO)** untuk keberkahan-Nya maka saya **tidak melakukan kecurangan** seperti yang telah dispesifikasikan.  Aamiin.
 
-## 🧩 Diagram
+## Diagram
 
 ![Diagram Paguyuban Cilok](Dokumentasi/kuis1.png)
 
-## 💡 Penjelasan dan Alasan
+## Penjelasan dan Alasan
 
 ### 1. Class `OrangCilok`
 Class ini dibuat sebagai *parent* dari `PedagangCilok` dan `PenggemarCilok`, karena keduanya sama-sama mewakili orang dengan atribut umum seperti `NoKTP`, `Nama`, dan `Alamat`.  
@@ -110,13 +110,13 @@ Atribut:
 Hubungan dengan `KategoriStandarEkspor` adalah **composition**,  
 karena tanpa kategori, level tidak memiliki makna dalam konteks ekspor cilok.
 
-## 🧪 Hasil Program
+## Hasil Program
 
-![Dokum1](Dokumentasi/Dokumentasi/Screenshot%202025-09-23%20133034.png)
-![Dokum2](Dokumentasi/Dokumentasi/Screenshot%202025-09-23%20133107.png)
-![Dokum3](Dokumentasi/Dokumentasi/Screenshot%202025-09-23%20133120.png)
+![Dokum1](Dokumentasi/Screenshot%202025-09-23%20133034.png)
+![Dokum2](Dokumentasi/Screenshot%202025-09-23%20133107.png)
+![Dokum3](Dokumentasi/Screenshot%202025-09-23%20133120.png)
 
-### 🧠 Ringkasan
+### Ringkasan
 Struktur program dirancang dengan konsep:
 - **Inheritance** untuk menghindari duplikasi atribut antar manusia (`OrangCilok`)
 - **Composition & Association** untuk relasi kuat antar objek (`Cilok`, `IsianCilok`, `TempatJualCilok`, dll.)
